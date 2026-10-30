@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Generates the Art House materials mini-site from data.json (stdlib only)."""
 import json
 import re
@@ -9,33 +9,33 @@ ROOT = Path(__file__).resolve().parent
 SITE = ROOT.parent
 DATA = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
 
-SHORT = ("Ð²", "Ð¸", "Ð°", "Ñ", "Ðº", "Ð¾", "Ñƒ", "Ð½Ð°", "Ð½Ðµ", "Ð¿Ð¾", "Ð·Ð°", "Ð¸Ð·", "Ð´Ð¾",
-         "Ð¾Ñ‚", "Ð´Ð»Ñ", "Ð¿Ñ€Ð¸", "Ð½Ð¾", "Ñ‚Ð¾", "Ð¶Ðµ", "Ð»Ð¸", "Ð±Ñ‹")
+SHORT = ("в", "и", "а", "с", "к", "о", "у", "на", "не", "по", "за", "из", "до",
+         "от", "для", "при", "но", "то", "же", "ли", "бы")
 SHORT_RE = re.compile(r"(?<![\w])(" + "|".join(SHORT) + r")[ \t]+", re.I)
-DASH_RE = re.compile(r"\s+â€”\s+")
+DASH_RE = re.compile(r"\s+—\s+")
 
 T = {
     "en": {
         "title": "Project Materials",
-        "home_title": "Art House â€” Project Materials",
-        "lead": "Sales kits, price lists, layouts and&nbsp;photos â€”&nbsp;for&nbsp;agents.",
-        "desc": "Sales kits, price lists, layouts and photos of Art House projects â€” for real estate agents.",
-        "og_desc": "Sales kits, price lists, layouts and photos â€” for agents.",
-        "open": "Open materials â†’",
-        "back": "â† All projects",
+        "home_title": "Art House — Project Materials",
+        "lead": "Sales kits, price lists, layouts and&nbsp;photos —&nbsp;for&nbsp;agents.",
+        "desc": "Sales kits, price lists, layouts and photos of Art House projects — for real estate agents.",
+        "og_desc": "Sales kits, price lists, layouts and photos — for agents.",
+        "open": "Open materials →",
+        "back": "← All projects",
         "wa": "Questions?",
         "hints": {"pdf": "PDF", "folder": "Folder", "image": "Image", "video": "Video"},
     },
     "ru": {
-        "title": "ÐœÐ°Ñ‚ÐµÑ€Ð¸Ð°Ð»Ñ‹ Ð¿Ð¾ Ð¾Ð±ÑŠÐµÐºÑ‚Ð°Ð¼",
-        "home_title": "Art House â€” ÐœÐ°Ñ‚ÐµÑ€Ð¸Ð°Ð»Ñ‹ Ð¿Ð¾ Ð¾Ð±ÑŠÐµÐºÑ‚Ð°Ð¼",
-        "lead": "Sales kit, Ð¿Ñ€Ð°Ð¹ÑÑ‹, Ð¿Ð»Ð°Ð½Ð¸Ñ€Ð¾Ð²ÐºÐ¸ Ð¸ Ñ„Ð¾Ñ‚Ð¾ â€” Ð´Ð»Ñ Ð°Ð³ÐµÐ½Ñ‚Ð¾Ð².",
-        "desc": "Sales kit, Ð¿Ñ€Ð°Ð¹ÑÑ‹, Ð¿Ð»Ð°Ð½Ð¸Ñ€Ð¾Ð²ÐºÐ¸ Ð¸ Ñ„Ð¾Ñ‚Ð¾ Ð¾Ð±ÑŠÐµÐºÑ‚Ð¾Ð² Art House â€” Ð´Ð»Ñ Ð°Ð³ÐµÐ½Ñ‚Ð¾Ð² Ð¿Ð¾ Ð½ÐµÐ´Ð²Ð¸Ð¶Ð¸Ð¼Ð¾ÑÑ‚Ð¸.",
-        "og_desc": "Sales kit, Ð¿Ñ€Ð°Ð¹ÑÑ‹, Ð¿Ð»Ð°Ð½Ð¸Ñ€Ð¾Ð²ÐºÐ¸ Ð¸ Ñ„Ð¾Ñ‚Ð¾ â€” Ð´Ð»Ñ Ð°Ð³ÐµÐ½Ñ‚Ð¾Ð².",
-        "open": "ÐžÑ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ð¼Ð°Ñ‚ÐµÑ€Ð¸Ð°Ð»Ñ‹ â†’",
-        "back": "â† Ð’ÑÐµ Ð¾Ð±ÑŠÐµÐºÑ‚Ñ‹",
-        "wa": "Ð’Ð¾Ð¿Ñ€Ð¾ÑÑ‹?",
-        "hints": {"pdf": "PDF", "folder": "ÐŸÐ°Ð¿ÐºÐ°", "image": "ÐšÐ°Ñ€Ñ‚Ð¸Ð½ÐºÐ°", "video": "Ð’Ð¸Ð´ÐµÐ¾"},
+        "title": "Материалы по объектам",
+        "home_title": "Art House — Материалы по объектам",
+        "lead": "Sales kit, прайсы, планировки и фото — для агентов.",
+        "desc": "Sales kit, прайсы, планировки и фото объектов Art House — для агентов по недвижимости.",
+        "og_desc": "Sales kit, прайсы, планировки и фото — для агентов.",
+        "open": "Открыть материалы →",
+        "back": "← Все объекты",
+        "wa": "Вопросы?",
+        "hints": {"pdf": "PDF", "folder": "Папка", "image": "Картинка", "video": "Видео"},
     },
 }
 
@@ -51,10 +51,10 @@ def typo(text, lang):
     """Escape + non-breaking spaces. Short-word joining only for RU; dash for both."""
     s = html.escape(text, quote=False)
     if lang == "ru":
-        # two passes so that consecutive short words ("Ð¸ Ð½Ð° ...") are all joined
+        # two passes so that consecutive short words ("и на ...") are all joined
         s = SHORT_RE.sub(lambda m: m.group(1) + "&nbsp;", s)
         s = SHORT_RE.sub(lambda m: m.group(1) + "&nbsp;", s)
-    return DASH_RE.sub("&nbsp;â€” ", s)
+    return DASH_RE.sub("&nbsp;— ", s)
 
 
 def esc(s):
@@ -78,8 +78,8 @@ def drive_url(item, lang):
 
 def lang_switch(lang, other_href):
     if lang == "en":
-        return f'<nav class="lang" aria-label="Language"><b>EN</b> Â· <a href="{other_href}" hreflang="ru" lang="ru">RU</a></nav>'
-    return f'<nav class="lang" aria-label="Language"><a href="{other_href}" hreflang="en" lang="en">EN</a> Â· <b>RU</b></nav>'
+        return f'<nav class="lang" aria-label="Language"><b>EN</b> · <a href="{other_href}" hreflang="ru" lang="ru">RU</a></nav>'
+    return f'<nav class="lang" aria-label="Language"><a href="{other_href}" hreflang="en" lang="en">EN</a> · <b>RU</b></nav>'
 
 
 def head(lang, base, title, desc=None, og=None):
@@ -135,7 +135,7 @@ def footer(lang):
         '<div class="wrap">',
         '<p class="slogan">Build. Manage. Trust<i>.</i></p>',
         f'<p>{typo(t["wa"], lang)} <a href="https://wa.me/66935844499" target="_blank" rel="noopener">WhatsApp +66&nbsp;93&nbsp;584&nbsp;4499</a></p>',
-        '<p class="copy">Â© Art&nbsp;House Group</p>',
+        '<p class="copy">© Art&nbsp;House Group</p>',
         "</div>",
         "</footer>",
         "</body>",
@@ -180,7 +180,7 @@ def build_project(lang, p):
     base = "../" if lang == "en" else "../../"
     home = "../"  # EN: site root; RU: site/ru/
     switch = f"../ru/{slug}/" if lang == "en" else f"../../{slug}/"
-    title = f"{p['name']} â€” Art House"
+    title = f"{p['name']} — Art House"
     out = head(lang, base, title)
     out += header_top(lang, base, home, switch)
     out += [
