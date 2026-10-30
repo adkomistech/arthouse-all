@@ -32,7 +32,7 @@ section{margin-top:32px}
 h2{margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line);font-size:13px;color:var(--ink2)}
 .grid{display:grid;grid-template-columns:1fr;gap:16px}
 .tile{display:block;background:#fff;color:inherit;text-decoration:none;border:1px solid var(--line)}
-.tile .ph{display:block;overflow:hidden;aspect-ratio:4/3;background:var(--line)}
+.tile .ph{display:block;overflow:hidden;aspect-ratio:16/10;background:var(--line)}
 .tile img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
 .tile .tx{display:block;padding:14px 16px 16px}
 .name{display:block;font-size:15px;line-height:1.3;color:var(--ink)}
@@ -49,6 +49,7 @@ footer a:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media (min-width:600px){
   .wrap{padding:0 24px}
   .grid{grid-template-columns:repeat(2,1fr);gap:20px}
+  .tile .ph{aspect-ratio:4/3}
   h1{font-size:30px}
 }
 @media (min-width:1000px){
@@ -64,7 +65,7 @@ footer a:focus-visible{outline:3px solid #fff;outline-offset:3px}
 <div class="wrap">
 <img class="logo" src="logo.svg" alt="Art House Group" width="745" height="628">
 <h1>Project Materials</h1>
-<p class="lead">Sales kits, price lists, layouts and photos — for agents.</p>
+<p class="lead">Sales kits, price lists, layouts and&nbsp;photos —&nbsp;for&nbsp;agents.</p>
 </div>
 </header>
 
