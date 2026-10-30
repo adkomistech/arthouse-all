@@ -1,0 +1,152 @@
+{
+  "groups": [
+    {"slug": "above", "name": "Above Element", "projects": ["above-condominium", "above-villa", "above-residence"]},
+    {"slug": "hennessy", "name": "Hennessy", "projects": ["hennessy-residence", "hennessy-villa"]},
+    {"slug": "fifth", "name": "Fifth Element", "projects": ["fifth-element"]},
+    {"slug": "palmetto", "name": "Palmetto", "projects": ["palmetto-condo", "palmetto-park"]},
+    {"slug": "proud", "name": "The Proud", "projects": ["proud-residence", "proud-rawai"]}
+  ],
+  "projects": [
+    {"slug": "above-condominium", "name": "Above Element Condominium", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "17Pg9N2J139fS5TYCmp2I6p_vDT2RT0AA", "ru": "1bd88EAUddmYKCAdTRAa2nBXdsEd-86Qp"}},
+      {"k": "priceA", "t": "pdf", "id": "1LwcBB7tiBuJHocqUky0gEmhmK1Ol1pRJ"},
+      {"k": "priceB", "t": "pdf", "id": "1srpfwgaYMebMcWezu_c7pVVOjjaJqQ1b"},
+      {"k": "payment", "t": "pdf", "id": "149cCC1NFrRKC60Y66vcWAallIowe6Juy"},
+      {"k": "finplan", "t": "pdf", "id": "1mgFVx6uow6tgCcoYX9broONb-DXNBBIL"},
+      {"k": "profile", "t": "pdf", "id": {"en": "14H2Or893K1tCPKZ8StQtgQvQFSV8J48g", "ru": "1c1ZIBbYa4z8W3Z7WsCld6laSWjD2u13R"}},
+      {"k": "floor", "t": "folder", "id": "1nP1NmNI_h0_yfZALrqg29kwiSfvD1i5Z"},
+      {"k": "layouts", "t": "folder", "id": "1857PTKg5DfCX7NiC5YRymEQBqcFk6329"},
+      {"k": "photos", "t": "folder", "id": "1rHshySYG3ykr6091f3mu9CZZEvLBzKLr"},
+      {"k": "showunit", "t": "folder", "id": "1EscSwDZt5XGgiwyXHfClqTc5cgBMtBQ7"},
+      {"k": "location", "t": "image", "id": "1NaSvEfUPsgNJ_IOnd30pgfNpKmis9I4g"}
+    ]},
+    {"slug": "above-villa", "name": "Above Element Villa", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1t7qVeMeMofz4lgnH0xHEG-WYPKuae2he", "ru": "1RCnBZZhh1NuI7uw6cwfIy5Sa7VO484Ty"}},
+      {"k": "price", "t": "pdf", "id": "1Wl7lhZT2T2-ZokUdvdW-z7F6aYYsfLC4"},
+      {"k": "masterplan", "t": "folder", "id": "1Rvo6kBywHj442c1b9MeRcTuXzIbTtTe2"},
+      {"k": "layouts", "t": "folder", "id": "1QJXy2_RTbVQ_HXvp3ZaVukkaYHH0FZV3"},
+      {"k": "photos", "t": "folder", "id": "12UpDWCk1hw_DmpzQPM-izLKwOhB9y_rT"},
+      {"k": "location", "t": "image", "id": "1t1izigReS_w9HVsGaKquAlHaYPWEV9xD"}
+    ]},
+    {"slug": "above-residence", "name": "Above Element Residence", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1-8dV_vgtQOpgyCc5q7JzryLfakgjjdhC", "ru": "1HNltu5CMURECYybQASTuHY00pI_9IIKN"}},
+      {"k": "price", "t": "pdf", "id": "1JVHxiYhjdApTiJ96crDf1JhUsWuMqJjo"},
+      {"k": "masterplan", "t": "pdf", "id": "1GV62i_5tExZZuguhb2xr16okTwwmXLju"},
+      {"k": "exterior", "t": "folder", "id": "1RHYBukeJhUx-IqGxoOcJumtcl6wq0v6a"},
+      {"k": "interior", "t": "folder", "id": "14AQnDOOA6UCN691QUcIoKQUKN5yw_73i"}
+    ]},
+    {"slug": "hennessy-residence", "name": "Hennessy Residence", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1CE5viDLcm46zR4oztAza9vZQer4AVPYr", "ru": "1MhTqpjQyDL5LXIP_NChGM9GImMyUv1yE"}},
+      {"k": "price", "t": "pdf", "id": "1BsBNDq3kfKYYMZYfxKOxA7JNtu4IkH2e"},
+      {"k": "payment", "t": "pdf", "id": {"en": "17q0gdQXflpQFuT-hnFV9UVyCxDjBdVxT", "ru": "18NQK_8qBq3DUTgUllObMMG11vox3New6"}},
+      {"k": "profile", "t": "pdf", "id": {"en": "1yDo2C3u2HRqNTmn-amswXOeVF274tozD", "ru": "1gQBRQYyGLdSUwHlKkYiZ84UvyvOpL87H"}},
+      {"k": "masterplan", "t": "folder", "id": "1SVtVZpXUIY_UziK_arZcoFHgRWhtf2Oh"},
+      {"k": "floor", "t": "folder", "id": "1xR_HPG2A1hJTXbLSj4wXA_TTLjoK9SqM"},
+      {"k": "layouts", "t": "folder", "id": "1krtKU0SlD987gXT1qSqDaT_sTtPrSmh8"},
+      {"k": "photos", "t": "folder", "id": "1hFtUUlKsn9oPeyBy4232E8myJ-mG28DZ"},
+      {"k": "location", "t": "image", "id": "1Hnu6CHNCDzIz7iNZ3b-kVMXKNAbu_6tT"},
+      {"k": "beach", "t": "image", "id": "1LCIMXtNuU42k_dB7a_QT4xQUSkoMcku9"}
+    ]},
+    {"slug": "hennessy-villa", "name": "Hennessy Villa", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1IOFA51LXF8vIzPoKLbHc6PNvNrNtTSSI", "ru": "1XORHJjgif3dLo5W_ChnpQJr1WGeMlYrw"}},
+      {"k": "price", "t": "pdf", "id": "1o8j5GmTEDGEBI2qnB-KBv8wzkoq3CCFc"},
+      {"k": "profile", "t": "pdf", "id": {"en": "1lEtWkzdndfYBiYEdLqCfAXeyz2MOyfdK", "ru": "1xB1c_LMfhrgXOaX3RPhmSLBlb2NHsAV7"}},
+      {"k": "masterplan", "t": "image", "id": "1ILeg-ds2MwcNjJYbih5sqNZBg-93jzsR"},
+      {"k": "layouts", "t": "folder", "id": "1hSEYgs6IVfdXneKQXJpUv9lIXDJnX14Z"},
+      {"k": "concept", "t": "folder", "id": "1DdwrDcOcOeIKuXbaedDhlTXJCVR8mk_R"},
+      {"k": "photos", "t": "folder", "id": "1Z4jXpDoQ2bHKXL-Wvair_7_R-PR6XGu5"},
+      {"k": "location", "t": "image", "id": "1hMX-JdP0RwpWdPZSWJMIn54_Uz0J6y3L"}
+    ]},
+    {"slug": "fifth-element", "name": "Fifth Element", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1j-lMWpgcxWd2pjnGVtlcc3_ivsZdi-Gm", "ru": "17kNSEPlSU5BeO-mia1s0vj8PWze68sQw"}},
+      {"k": "priceResale", "t": "pdf", "id": "1DVczJR2hzIyettRAruSeKB4ETX1OA_-T"},
+      {"k": "priceCommercial", "t": "pdf", "id": "1OGKpI8xoEQroEgfMFhj6xMpUjnXH7NbQ"},
+      {"k": "profile", "t": "pdf", "id": {"en": "1X-RDPsyLWeIgcZtm_ab-gHQ-LG7_6Ylq", "ru": "1Mm1jDsswfcMpe4aDYuX9BxxsK3D-ireO"}},
+      {"k": "masterplan", "t": "folder", "id": "1q3RNlKpd4r4w7EqwDJzaxZ5Zdzvnv1FV"},
+      {"k": "layouts", "t": "folder", "id": "1DtXV2V_kGaa7VQWs-C4T1lnt6kf2PZoy"},
+      {"k": "photos", "t": "folder", "id": "10ySbnhz9GKuWs9_pJpe1D2as-j13Xsk-"},
+      {"k": "plaza", "t": "folder", "id": "1quJ74ohwAKGeWUB4-J6W2Qrc2Rocxtf8"},
+      {"k": "video", "t": "video", "id": "1uw9Q1ssPuTA-UE3BnLQsmGyINLgdqzQA"},
+      {"k": "location", "t": "image", "id": "15pXC_ehDXiubY8c9jXAXOFmn-xedU6MB"}
+    ]},
+    {"slug": "palmetto-condo", "name": "Palmetto Condominium", "items": [
+      {"k": "priceResale", "t": "pdf", "id": "1RbGX5_l5z9mNQDllbfmM5wOr6_fAF9vb"},
+      {"k": "profile", "t": "pdf", "id": {"en": "1lu_pQtvvaAhcBbhh75bmq2arI3BqlcMJ", "ru": "1F2u9W2Z3WC64Fs-w_uGBi45NLQyYA8qn"}},
+      {"k": "floor", "t": "folder", "id": "15nkV-lfLY88zhOaNArBOR8M7xVgv4dug"},
+      {"k": "layouts", "t": "folder", "id": "1PZD8CNUHRKYsVjGSaf0RNaJyneJUxa_0"},
+      {"k": "exterior", "t": "folder", "id": "1V4gqPH5I8mZ1_6XHn5dCojnsBirBcWnk"},
+      {"k": "interior", "t": "folder", "id": "1u_tkAD1YStK4NDVNlAWU8W_uFU05HfB9"},
+      {"k": "common", "t": "folder", "id": "1FTQpqni2_L-iZkKYtcZDiPxcjyaDB9S3"}
+    ]},
+    {"slug": "palmetto-park", "name": "Palmetto Park Residence", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1fb8R_xkvJVaU-Rw72q74lDdX2pCQJXXI", "ru": "1-PxObY3TkTm5u5ohcWxXrfyTI7Gnz_4F"}},
+      {"k": "price", "t": "pdf", "id": "1NJPmfzlqV94EpdXY2711vW_P1v8yKNIT"},
+      {"k": "profile", "t": "pdf", "id": {"en": "1Cl2el0oVGeaH6_aJ_QaKFTibpv-Bu7sw", "ru": "1Ljw3xaQ7NGvzLo9gToEe_wE8vshwJOIX"}},
+      {"k": "floor", "t": "folder", "id": "1ObJEKcMIaOJRHrN_t0077M6DMIRynfJI"},
+      {"k": "layouts", "t": "folder", "id": "1CUgve1RbMW4--NwJRF40zTVZ2VZYT3c3"},
+      {"k": "exterior", "t": "folder", "id": "1QkIauls3vQ3ATtCJYFK7ggipC3hS3kaW"},
+      {"k": "interior", "t": "folder", "id": "1k_88Rckef5qx99wlyLTc-IsJbENCDzdK"},
+      {"k": "common", "t": "folder", "id": "18ox0vR2UVgcpsh0tjcqpbDgL-0EFm8Cq"},
+      {"k": "location", "t": "folder", "id": "176paNM3BnFg8EggT808tuirjliUiSwn6"}
+    ]},
+    {"slug": "proud-residence", "name": "The Proud Residence", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1pydakfxcMe9kPuLHdoIvyGhPckfJhcoz", "ru": "12d6jCqb9tfn2Az1datSaHDl8Bl8Uh4rZ"}},
+      {"k": "priceA", "t": "pdf", "id": "1OAEted9QQdItmnLJKBHR93hRBnlfHP9K"},
+      {"k": "priceB", "t": "pdf", "id": "1Rs-Hr7uNtNaxEGj9SCLfTjobQ-ibRJAQ"},
+      {"k": "profile", "t": "pdf", "id": {"en": "1y8yJgnMHAz8rRVC3gO5eC4KYFhTqoGJQ", "ru": "1MfQB8xBfU3ABQri_YP7eig7Skt0yYCTI"}},
+      {"k": "floor", "t": "folder", "id": "1ExQsfcd5c9WI1zNqUPWLoNSMgQ2dx82Z"},
+      {"k": "layouts", "t": "folder", "id": "1yHR_3_4tjNnxWxbi9R0iUj-PfIt-bDZj"},
+      {"k": "exterior", "t": "folder", "id": "1GCpXLYkCvpPRgQGv3rO_KfMOofb6LZus"},
+      {"k": "interior", "t": "folder", "id": "1_qCimyKcnH9h_7qoGX7HwWmReTIi9G_9"},
+      {"k": "common", "t": "folder", "id": "1Abce9X_Y6pg6iWRqomL8MjCmsDxg24B7"},
+      {"k": "video", "t": "video", "id": "12qTvcj1lBaDstfKt1qOhTFvXYuLKFBda"},
+      {"k": "location", "t": "folder", "id": "1xdobTkmLvQPk0fcInvJQJEFCtAOYv3oz"}
+    ]},
+    {"slug": "proud-rawai", "name": "The Proud Rawai Resort", "items": [
+      {"k": "saleskit", "t": "pdf", "id": {"en": "1Ek91aVfq4PpiReFw5oM7O8u8OMrO1wQc", "ru": "1B_ZMpNbgUm7f7f3CeWGoBVsJT6b7_Per"}},
+      {"k": "price", "t": "pdf", "id": "1mJ0uKupOnzeYdzPsD7t_i6eNAFk18ctU"},
+      {"k": "profile", "t": "pdf", "id": {"en": "1Qo8tMCb1whejYJ8ntYASC1gvAaHDAJO5", "ru": "1BUheDiIaNg0BnVzm4w1G8Bcg4SOLvJGo"}},
+      {"k": "floor", "t": "folder", "id": "1ZSfhnPBZ8oUgvHC4b-BArk5FPPSM_k-3"},
+      {"k": "layouts", "t": "folder", "id": "1B77ZeYhLOWsnPXUjR47osQXfGgRdhqF1"},
+      {"k": "furniture", "t": "folder", "id": "17mSJx8oGgKoMDyAVBBnj1S30_s_Y79VK"},
+      {"k": "exterior", "t": "folder", "id": "1V-dR7-askY0ZyLPNYZ6JpcePvdbPgh8L"},
+      {"k": "interior", "t": "folder", "id": "1hpWvKunfzGMB6SSmpWIN8YwTmv5HrB2R"},
+      {"k": "common", "t": "folder", "id": "1xlZYaNIM8lFPU8ADrsgUxBp981SsoGL9"},
+      {"k": "indigo", "t": "folder", "id": "1C4a9Qsk2_BUetC8mtnjrPAlgrR5S9JjK"},
+      {"k": "mirage", "t": "folder", "id": "1B_0dv2YgtTfnFEBA6O3tkxWq_xdCJj__"},
+      {"k": "video", "t": "video", "id": "12-EIp-ayKhuG_vFLu8qxdwNQHSuFvC7u"}
+    ]}
+  ],
+  "labels": {
+    "saleskit":        {"g": "docs",  "en": "Sales Kit",                 "ru": "Sales Kit (презентация)"},
+    "price":           {"g": "docs",  "en": "Price list",                "ru": "Прайс-лист"},
+    "priceA":          {"g": "docs",  "en": "Price list — Building A",   "ru": "Прайс-лист — корпус A"},
+    "priceB":          {"g": "docs",  "en": "Price list — Building B",   "ru": "Прайс-лист — корпус B"},
+    "priceResale":     {"g": "docs",  "en": "Resale price list",         "ru": "Прайс-лист — вторичный рынок"},
+    "priceCommercial": {"g": "docs",  "en": "Commercial space price list","ru": "Прайс-лист — коммерческие помещения"},
+    "payment":         {"g": "docs",  "en": "Payment plan",              "ru": "График платежей"},
+    "finplan":         {"g": "docs",  "en": "Financial plan 2026",       "ru": "Финансовый план 2026"},
+    "profile":         {"g": "docs",  "en": "Developer profile",         "ru": "О застройщике"},
+    "masterplan":      {"g": "plans", "en": "Master plan",               "ru": "Генплан"},
+    "floor":           {"g": "plans", "en": "Floor plans",               "ru": "Поэтажные планы"},
+    "layouts":         {"g": "plans", "en": "Unit layouts",              "ru": "Планировки"},
+    "furniture":       {"g": "plans", "en": "Furniture package",         "ru": "Мебельный пакет"},
+    "concept":         {"g": "plans", "en": "Concept",                   "ru": "Концепция"},
+    "photos":          {"g": "media", "en": "Photos",                    "ru": "Фото"},
+    "exterior":        {"g": "media", "en": "Exterior photos",           "ru": "Фото — экстерьер"},
+    "interior":        {"g": "media", "en": "Interior photos",           "ru": "Фото — интерьеры"},
+    "common":          {"g": "media", "en": "Common areas",              "ru": "Фото — общие зоны"},
+    "showunit":        {"g": "media", "en": "Show unit",                 "ru": "Шоу-рум"},
+    "plaza":           {"g": "media", "en": "Fifth Element Plaza",       "ru": "Fifth Element Plaza"},
+    "indigo":          {"g": "media", "en": "Indigo Restaurant",         "ru": "Ресторан Indigo"},
+    "mirage":          {"g": "media", "en": "Mirage Cafe",               "ru": "Кафе Mirage"},
+    "video":           {"g": "media", "en": "Video",                     "ru": "Видео"},
+    "location":        {"g": "media", "en": "Location",                  "ru": "Расположение"},
+    "beach":           {"g": "media", "en": "Beach",                     "ru": "Пляж"}
+  },
+  "groupLabels": {
+    "docs":  {"en": "Documents",       "ru": "Документы"},
+    "plans": {"en": "Plans & layouts", "ru": "Планы и планировки"},
+    "media": {"en": "Photos & video",  "ru": "Фото и видео"}
+  }
+}
