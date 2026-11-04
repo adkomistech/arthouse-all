@@ -104,7 +104,7 @@ def head(lang, base, title, desc=None, og=None):
             '<meta property="og:type" content="website">',
             f'<meta property="og:title" content="{esc(og[0])}">',
             f'<meta property="og:description" content="{esc(og[1])}">',
-            '<meta property="og:image" content="https://all.arthouse.asia/img/above-condominium.webp">',
+            '<meta property="og:image" content="https://projects.arthouse.asia/img/above-condominium.webp">',
         ]
     out += [
         '<link rel="preconnect" href="https://fonts.googleapis.com">',
