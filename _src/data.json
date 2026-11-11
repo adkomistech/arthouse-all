@@ -9,8 +9,8 @@
   "projects": [
     {"slug": "above-condominium", "name": "Above Element Condominium", "items": [
       {"k": "saleskit", "t": "pdf", "id": {"en": "1Fq293BRL9nqcgpa6vxsSe5arHUvLsdE9", "ru": "1pyRpk4-t3ShMSexVkQI3P4chjKt1icqv"}},
-      {"k": "priceA", "t": "pdf", "id": "1NOvE3Idf3IS-v2arKnz0Guh1j85IhCX7"},
-      {"k": "priceB", "t": "pdf", "id": "18l7okwWatnGcWMXAFew6-w0hD0I0nKaU"},
+      {"k": "priceA", "t": "pdf", "id": "1dxB2ms3477Fegy6BuMuyqGZjTJoo-FA2"},
+      {"k": "priceB", "t": "pdf", "id": "17GNF8zwv6FnTzGkjAQQ7WdocYu1mkuTw"},
       {"k": "payment", "t": "pdf", "id": "1gQpAlDV1mzhJoJkrrSGrk9mbWbun2J81"},
       {"k": "finplan", "t": "pdf", "id": "1x7DnUMVSzSx9iVykW5QpgF0gw_LENRVA"},
       {"k": "profile", "t": "pdf", "id": {"en": "1v19fEq-I0ciMNxucSVNBuDpiPO9mF8QU", "ru": "1h3eEvKn0Z9dVdadc0FObOHz-wo2lPQpo"}},
