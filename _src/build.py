@@ -23,7 +23,6 @@ T = {
         "og_desc": "Sales kits, price lists, layouts and photos — for agents.",
         "open": "Open materials →",
         "back": "← All projects",
-        "wa": "Questions?",
         "hints": {"pdf": "PDF", "folder": "Folder", "image": "Image", "video": "Video"},
     },
     "ru": {
@@ -34,7 +33,6 @@ T = {
         "og_desc": "Sales kit, прайсы, планировки и фото — для агентов.",
         "open": "Открыть материалы →",
         "back": "← Все объекты",
-        "wa": "Вопросы?",
         "hints": {"pdf": "PDF", "folder": "Папка", "image": "Картинка", "video": "Видео"},
     },
 }
@@ -129,12 +127,10 @@ def header_top(lang, base, home_href, switch_href):
 
 
 def footer(lang):
-    t = T[lang]
     return [
         "<footer>",
         '<div class="wrap">',
         '<p class="slogan">Build. Manage. Trust<i>.</i></p>',
-        f'<p>{typo(t["wa"], lang)} <a href="https://wa.me/66935844499" target="_blank" rel="noopener">WhatsApp +66&nbsp;93&nbsp;584&nbsp;4499</a></p>',
         '<p class="copy">© Art&nbsp;House Group</p>',
         "</div>",
         "</footer>",
