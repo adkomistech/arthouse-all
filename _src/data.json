@@ -91,7 +91,7 @@
     ]},
     {"slug": "proud-residence", "name": "The Proud Residence", "items": [
       {"k": "saleskit", "t": "pdf", "id": {"en": "1cRLcysa0x4W1syu6InfL6Uc3xy2M_2Gv", "ru": "1_4XUaAJgwv4xHHk0KgVezHxVxbl5FWE7"}},
-      {"k": "priceA", "t": "pdf", "id": "1O6UssYbUi6LkQ7A1224bCgV4RSQxu2Bg"},
+      {"k": "priceA", "t": "pdf", "id": "1i_TacdSqwvX1l-ZeZ4gMobnayTqdfoU4"},
       {"k": "priceB", "t": "pdf", "id": "1S46Mx01MD7qLKrDsuiPZVB4gKbqLAGl0"},
       {"k": "profile", "t": "pdf", "id": {"en": "1IkWUcwEE2Wvh38sQG8FfPPT5kShcb3OZ", "ru": "1eQ1kJvYLjOJ6DZ5_BSo5fFXakewagaws"}},
       {"k": "floor", "t": "folder", "id": "16txCZAuadC4kxoExeAGt3z2VowxE7Bjl"},
